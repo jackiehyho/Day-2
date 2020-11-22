@@ -1,0 +1,38 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#modal {
+    display:flex;
+    position: fixed;
+    align-items: center;
+    flex-direction:column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw; 
+    transition: all .25s ease-in;
+}
+
+#modalContent {
+    display:flex;
+    flex-direction:column;
+
+    padding: 1rem;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+}
+
+.modalToggle{
+    background-color: rgba(0,0,0,0.75);
+    display:flex;
+}
+
+.images{
+    padding: 1rem;
+}
